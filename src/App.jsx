@@ -12,6 +12,7 @@ const router =  createBrowserRouter(
     <Route path="/jobs" element={<JobsPage />} />
     <Route path="*" element={<NotFoundPage />} />
     <Route path="/add-job" element={<JobsPage />} />
+    
   </Route>
   
   )
